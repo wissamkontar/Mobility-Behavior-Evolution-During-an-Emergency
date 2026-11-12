@@ -1,0 +1,24 @@
+# Requirements for:
+# - preprocess_yjmob100k.py
+# - mobility_metrics.py
+# - period_analysis.py
+# - observation_window_analysis.py
+# - transition_analysis.py
+#
+# Recommended Python version: 3.10+
+
+# Numerical computing
+numpy>=1.26
+
+# Data handling
+pandas>=2.1
+
+# Parquet input and output
+pyarrow>=14.0
+
+# Statistical tests (Mann-Whitney U, Kolmogorov-Smirnov, Kruskal-Wallis)
+scipy>=1.11
+
+# Maximum-likelihood fitting of exponential, lognormal and
+# truncated power-law distributions
+powerlaw>=1.5
